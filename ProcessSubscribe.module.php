@@ -20,6 +20,7 @@ class ProcessSubscribe extends Process {
 			'requires' => [],
 			'autoload' => false,
 			'singular' => true,
+			'permission' => 'subscribers-edit',
 			'page'     => [
 				'name'   => 'subscribe-form',
 				'parent' => 'setup',
